@@ -1,8 +1,8 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './Entity.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Entity.css";
 
-const Entity = ({ name, img, level ,category}) => {
+const Entity = ({ name, img, level, category }) => {
   return (
     <div className="entity">
       <img src={img} alt={name} />
@@ -13,6 +13,6 @@ const Entity = ({ name, img, level ,category}) => {
       </div>
     </div>
   );
-}
+};
 
 export default Entity;

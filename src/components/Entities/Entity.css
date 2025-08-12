@@ -1,0 +1,17 @@
+.entity .info {
+  padding: 20px;
+  background: #fff;
+}
+
+.entity .info h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.entity .info p {
+  margin: 10px 0;
+  font-size: 24px;
+  text-align: center;
+}
